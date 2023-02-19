@@ -7,8 +7,16 @@
     <title>Trafalgar - Your Virtual Healthcare Assistant</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/cpp7zwe.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <!-- NavBar -->
     <div class="nav-bar">
       <div id="hero-logo">
         <img src="assets/logo.png" alt="Trafalgar" />
@@ -23,8 +31,9 @@
         </ul>
       </div>
     </div>
-    <img id="element-dots1" src="assets/elementdots.png" alt="" />
+    <!-- Hero Section -->
     <div class="hero-section">
+      <img id="element-dots1" src="assets/elementdots.png" alt="" />
       <div class="hero-text">
         <h1>
           Virtual healthcare <br />
@@ -44,6 +53,7 @@
         />
       </div>
     </div>
+    <!-- divider -->
     <div class="divider-section">
       <h1>Our services</h1>
       <svg
@@ -62,6 +72,7 @@
         your health
       </p>
     </div>
+    <!-- Shapes -->
     <div id="background-shapes-grid">
       <svg
         width="715"
@@ -89,53 +100,212 @@
           </linearGradient>
         </defs>
       </svg>
-      <img src="assets/elementdots.png" alt="" />
     </div>
-    <div class="services-grid">
-      <div class="service-card">
-        <img src="assets/Frame.png" alt="search-doctor" />
-        <h1>Search doctor</h1>
-        <p>
-          Choose your doctor from thousands of specialist, general, and trusted
-          hospitals
-        </p>
+    <!-- Services -->
+    <div class="services">
+      <img src="assets/element.png" alt="" id="element-dots2" />
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="assets/Frame.png" alt="search-doctor" />
+          <h1>Search doctor</h1>
+          <p>
+            Choose your doctor from thousands of specialist, general, and
+            trusted hospitals
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="assets/Framemed.png" alt="online-pharmacy" />
+          <h1>Online pharmacy</h1>
+          <p>
+            Buy your medicines with our mobile application with a simple
+            delivery system
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="assets/Framemobile.png" alt="consultation" />
+          <h1>Consultation</h1>
+          <p>
+            Free consultation with our trusted doctors and get the best
+            recomendations
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="assets/Frameprof.png" alt="details-info" />
+          <h1>Details info</h1>
+          <p>
+            Free consultation with our trusted doctors and get the best
+            recomendations
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="assets/Frameemergency.png" alt="emergency-care" />
+          <h1>Emergency care</h1>
+          <p>
+            You can get 24/7 urgent care for yourself or your children and your
+            lovely family
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="assets/Frametrack.png" alt="tracking" />
+          <h1>Tracking</h1>
+          <p>Track and save your medical history and health data</p>
+        </div>
       </div>
-      <div class="service-card">
-        <img src="assets/Framemed.png" alt="online-pharmacy" />
-        <h1>Online pharmacy</h1>
+      <btn class="learn-more">Learn more</btn>
+    </div>
+    <!-- Section 3 -->
+    <div class="section-3">
+      <img src="/assets/trafalgar-illustration sec02 1.png" alt="sec02" />
+      <div class="section-3-text">
+        <h1>Leading healthcare<br />providers</h1>
+        <svg
+          width="56"
+          height="2"
+          viewBox="0 0 56 2"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="56" height="2" rx="1" fill="black" />
+        </svg>
+
         <p>
-          Buy your medicines with our mobile application with a simple delivery
-          system
+          Trafalgar provides progressive, and affordable healthcare, accessible
+          on mobile and online for everyone. To us, it's not just work. We take
+          pride <br />
+          in the solutions we deliver
         </p>
+        <button class="learn-more">Learn more</button>
       </div>
-      <div class="service-card">
-        <img src="assets/Framemobile.png" alt="consultation" />
-        <h1>Consultation</h1>
+      <img src="assets/elementdots2.png" alt="" id="section-3-dots" />
+    </div>
+    <!-- Section 4 -->
+    <div class="section-4">
+      <div class="section-4-text">
+        <h1>
+          Download our <br />
+          mobile apps
+        </h1>
+        <svg
+          width="56"
+          height="2"
+          viewBox="0 0 56 2"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="56" height="2" rx="1" fill="black" />
+        </svg>
         <p>
-          Free consultation with our trusted doctors and get the best
-          recomendations
+          Our dedicated patient engagement app and web portal allow you to
+          access information instantaneously (no tedeous form, long calls, or
+          administrative hassle) and securely
         </p>
+        <button class="learn-more downloadBtn">
+          Download
+          <svg
+            width="11"
+            height="16"
+            viewBox="0 0 11 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.81951 1.05554L4.81951 12.6308L2.27646 10.0877C1.92569 9.73698 1.39954 9.73698 1.04878 10.0877C0.698014 10.4385 0.698014 10.9647 1.04878 11.3154L5.08258 15.3492C5.43335 15.7 5.95949 15.7 6.31026 15.3492L10.3441 11.3154C10.6948 10.9647 10.6948 10.4385 10.3441 10.0877C9.9933 9.73698 9.46715 9.73698 9.11638 10.0877L6.57333 12.6308L6.57333 1.05554C6.57333 0.617083 6.22257 0.178627 5.69642 0.178627C5.17027 0.178627 4.81951 0.617083 4.81951 1.05554Z"
+              fill="#458FF6"
+            />
+          </svg>
+        </button>
       </div>
-      <div class="service-card">
-        <img src="assets/Frameprof.png" alt="details-info" />
-        <h1>Details info</h1>
-        <p>
-          Free consultation with our trusted doctors and get the best
-          recomendations
-        </p>
+      <img
+        src="assets/trafalgar-illustration sec03 1.png"
+        alt=""
+        id="section-4-img"
+      />
+    </div>
+    <!-- Testimonials -->
+    <div class="testimonials-container">
+      <div class="testimonials">
+        <img
+          src="assets/Grouptestimonialsdot1.png"
+          alt=""
+          id="testimonial-dot-1"
+        />
+        <div class="testimonials-header">
+          <h1>What our customer are saying</h1>
+          <svg
+            width="56"
+            height="2"
+            viewBox="0 0 56 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="56" height="2" rx="1" fill="white" />
+          </svg>
+        </div>
+        <div class="testimonials-content">
+          <div class="testimonials-person">
+            <div class="img-container">
+              <img src="assets/image 1.png" alt="" />
+            </div>
+            <div class="name-title">
+              <h3 class="name">Edward Newgate</h3>
+              <p class="person-title">Founder Circle</p>
+            </div>
+          </div>
+          <div class="testimonies">
+            <p>
+              “Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely”
+            </p>
+          </div>
+        </div>
+        <img
+          src="assets/Grouptestimonialsdot2.png"
+          alt=""
+          id="testimonial-dot-2"
+        />
       </div>
-      <div class="service-card">
-        <img src="assets/Frameemergency.png" alt="emergency-care" />
-        <h1>Emergency care</h1>
-        <p>
-          You can get 24/7 urgent care for yourself or your children and your
-          lovely family
-        </p>
-      </div>
-      <div class="service-card">
-        <img src="assets/Frametrack.png" alt="tracking" />
-        <h1>Tracking</h1>
-        <p>Track and save your medical history and health data</p>
+      <div class="testimonials-btn">
+        <i class="fa-solid fa-arrow-left-long"></i>
+        <div class="svgs">
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="5" cy="5" r="5" fill="#5B9BF3" />
+          </svg>
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle opacity="0.3" cx="5" cy="5" r="5" fill="#5B9BF3" />
+          </svg>
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle opacity="0.3" cx="5" cy="5" r="5" fill="#5B9BF3" />
+          </svg>
+          <svg
+            width="10"
+            height="10"
+            viewBox="0 0 10 10"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle opacity="0.3" cx="5" cy="5" r="5" fill="#5B9BF3" />
+          </svg>
+        </div>
+        <i class="fa-solid fa-arrow-right-long"></i>
       </div>
     </div>
   </body>
